@@ -22,7 +22,7 @@ public class StepDefinitions {
 
 	@Given("I have entered an {string} address")
 	public void i_have_entered_an_address(String email) {
-		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Eclipse\\mydrivers\\chromedriver.exe");
 		driver = new ChromeDriver(); // Start chrome
 
 		driver.manage().window().maximize();
